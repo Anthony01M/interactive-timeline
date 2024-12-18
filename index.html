@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Timeline</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <h1>Interactive Timeline</h1>
+        <form id="timelineForm">
+            <input type="text" id="eventInput" placeholder="Enter event description" required>
+            <input type="date" id="dateInput" required>
+            <input type="time" id="timeInput" required>
+            <button type="submit">Add Event</button>
+        </form>
+        <div id="timeline"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
